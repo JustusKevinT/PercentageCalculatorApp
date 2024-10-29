@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NEETMarkActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="172dp"
+        android:text="Correct Response:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="241dp"
+        android:text="Incorrect Response:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calculateneetmarkbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="311dp"
+        android:text="Calculate Mark" />
+
+    <TextView
+        android:id="@+id/neetResultMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/correctresponse"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter the number"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/incorrectresponse"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter the number"
+        android:inputType="number"
+        android:minHeight="48dp" />
+</RelativeLayout>

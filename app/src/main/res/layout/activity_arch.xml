@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".archActivity">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="34dp"
+        android:text="Correct Response"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="170dp"
+        android:text="Incorrect Response"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="338dp"
+        android:text="Drawing Mark"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonarchmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="170dp"
+        android:text="Calculate Mark" />
+
+    <EditText
+        android:id="@+id/archcr"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="144dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter number"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/archDrawing"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="406dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter mark"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/archicr"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginBottom="551dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter number"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/archresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</RelativeLayout>

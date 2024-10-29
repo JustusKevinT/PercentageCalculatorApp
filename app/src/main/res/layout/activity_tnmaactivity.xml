@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TNMAActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="195dp"
+        android:text="Physics :"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="271dp"
+        android:text="Chemistry :"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="355dp"
+        android:text="Biology :"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/tnmaPhysics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/tnmaChemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/tnmaBiology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter Marks"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/tnmacutoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="325dp"
+        android:text="Calculate TNMA Cutofff" />
+
+    <TextView
+        android:id="@+id/tnmaresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginBottom="194dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+</RelativeLayout>

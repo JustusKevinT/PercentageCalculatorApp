@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PercentSBActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="212dp"
+        android:text="Total Marks"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calculate_percent_sslc_sb_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="315dp"
+        android:text="Calculate Percentage" />
+
+    <TextView
+        android:id="@+id/result_sslc_sb_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="243dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/t_marks_sslc_sb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter total marks"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+</RelativeLayout>

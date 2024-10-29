@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sslc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="212dp"
+        android:text="SSLC" />
+
+    <Button
+        android:id="@+id/tnma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="296dp"
+        android:text="TNMA" />
+
+    <Button
+        android:id="@+id/buttontnea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="85dp"
+        android:text="TNEA" />
+
+    <Button
+        android:id="@+id/neet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="96dp"
+        android:text="NEET" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="93dp"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/buttonjee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="94dp"
+        android:text="JEE" />
+
+</RelativeLayout>

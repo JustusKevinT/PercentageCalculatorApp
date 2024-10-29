@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".planActivity">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="152dp"
+        android:text="Correct Response"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="283dp"
+        android:text="Incorrect Response"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calculateplanmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="425dp"
+        android:text="Calculate Marks" />
+
+    <TextView
+        android:id="@+id/planresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/plancr"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter number"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/planicr"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="274dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Enter number"
+        android:inputType="number"
+        android:minHeight="48dp" />
+</RelativeLayout>

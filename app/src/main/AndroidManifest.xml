@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MarkCutoffPercentileCalculatorApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".TotalMarkSBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TotalMarksSBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TotalMarkCBSEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TNMAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TNEAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StateBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SSLCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".planActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PercentSBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PercentCBSEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NEETPercentageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NEETMarkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NEETActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JEEPaper2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".JEEPaper1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".JEEp1Percent_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".JEEp1Mark_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".JEEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JEE2PercentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JEE2MarkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CBSEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".archActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
